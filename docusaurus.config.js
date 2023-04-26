@@ -16,16 +16,16 @@ const config = {
   favicon: "img/mobiwise.svg",
 
   // Set the production url of your site here
-  url: "https://mobiwise.dev",
-
+  url: "https://github.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config (useful for 'docusraus deploy' command)
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
   organizationName: "mobiwise-dev", // Usually your GitHub org/user name.
   projectName: "mobiwise-dev.github.io", // Usually your repo name.
-  // deploymentBranch: "gh-pages", // The branch of your docs repo that you are publishing to GitHub pages
+  deploymentBranch: "gh-pages", // The branch of your docs repo that you are publishing to GitHub pages
 
   onBrokenLinks: "throw", // Type : 'ignore' | 'log' | 'warn' | 'throw'
   // onBrokenLinks: "ignore",
