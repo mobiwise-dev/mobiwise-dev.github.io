@@ -1,14 +1,19 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
+///////////////////////////////////////////////////////////////////////////////
+// CODE THEMES
+///////////////////////////////////////////////////////////////////////////////
+
+// const lightCodeTheme = require("prism-react-renderer/themes/github");
+const lightCodeTheme = require("prism-react-renderer/themes/dracula");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Mobiwise",
+  tagline: "Mobirise more Wise",
+  favicon: "img/mobiwise.svg",
 
   // Set the production url of your site here
   url: "https://github.com",

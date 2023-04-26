@@ -1,0 +1,8 @@
+{
+  "label": "mbrApp.Core",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Les fonctions mbrApp.Core"
+  }
+}
