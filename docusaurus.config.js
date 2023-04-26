@@ -1,39 +1,34 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 ///////////////////////////////////////////////////////////////////////////////
 // CODE THEMES
 ///////////////////////////////////////////////////////////////////////////////
-
-// const lightCodeTheme = require("prism-react-renderer/themes/github");
 const lightCodeTheme = require("prism-react-renderer/themes/dracula");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
+///////////////////////////////////////////////////////////////////////////////
+// CONFIG
+///////////////////////////////////////////////////////////////////////////////
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Mobiwise",
+  title: "MobiWise",
   tagline: "Mobirise more Wise",
   favicon: "img/mobiwise.svg",
 
-  // Set the production url of your site here
+  // url production
   url: "https://mobiwise.dev",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "mobiwise-dev", // Usually your GitHub org/user name.
-  projectName: "mobiwise-dev.github.io", // Usually your repo name.
+  // GitHub pages deployment config
+  organizationName: "mobiwise-dev", // user name.
+  projectName: "mobiwise-dev.github.io", // Repo name.
   deploymentBranch: "gh-pages", // The branch of your docs repo that you are publishing to GitHub pages
 
   // onBrokenLinks: "throw", // Type : 'ignore' | 'log' | 'warn' | 'throw'
-  onBrokenLinks: "ignore",
+  onBrokenLinks: "ignore", // Type : 'ignore' | 'log' | 'warn' | 'throw'
   onBrokenMarkdownLinks: "warn", // Type : 'ignore' | 'log' | 'warn' | 'throw'
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // Internationalization
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -50,13 +45,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "docs",
-          // test options
+
           showLastUpdateTime: true,
           breadcrumbs: true,
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl: "https://github.com/mobiwise-dev/mobiwise-dev.github.io/",
         },
 
         blog: {
@@ -74,6 +69,7 @@ const config = {
               });
             },
           },
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
@@ -166,6 +162,9 @@ const config = {
       //////////////////////////////////////////////////////////////////////////
 
       headTags: [],
+
+      //////////////////////////////////////////////////////////////////////////
+
       postBodyTags: [
         {
           tagName: "div",
@@ -195,16 +194,6 @@ const config = {
 
       //////////////////////////////////////////////////////////////////////////
 
-      announcementBar: {
-        id: "support_us",
-        content: '<a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/donate/?hosted_button_id=ZXVQYM7ZEH6QN">Don\'t forget to support our work by making a donation</a>',
-        backgroundColor: "#e43f3f",
-        textColor: "#f1f1f1",
-        isCloseable: true,
-      },
-
-      //////////////////////////////////////////////////////////////////////////
-
       scripts: [
         // script syntax
         "test.js",
@@ -223,6 +212,16 @@ const config = {
 
       //////////////////////////////////////////////////////////////////////////
 
+      announcementBar: {
+        id: "support_us",
+        content: '<b><a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/donate/?hosted_button_id=ZXVQYM7ZEH6QN">Don\'t forget to support our work by making a donation</a></b>',
+        backgroundColor: "#e43f3f",
+        textColor: "#f1f1f1",
+        isCloseable: true,
+      },
+
+      //////////////////////////////////////////////////////////////////////////
+
       navbar: {
         // title: "MobiWise.dev",
         logo: {
@@ -236,27 +235,6 @@ const config = {
           { to: "/tutorials", label: "Tutorials", position: "left" },
 
           { to: "/extensions", label: "Extensions", position: "left" },
-
-          // {
-          //   type: "dropdown",
-          //   // to: "/extensions",
-          //   label: "Extensions",
-          //   position: "left",
-          //   items: [
-          //     {
-          //       label: "MobiWise Store",
-          //       href: "extensions/mobiwise-store",
-          //     },
-          //     {
-          //       label: "MobiWise Forum Feed",
-          //       href: "extensions/mobiwise-forum_feed",
-          //     },
-          //     {
-          //       label: "MobiWise Bootstrap Icons",
-          //       href: "mobiwise-bootstrap_icons",
-          //     },
-          //   ],
-          // },
 
           { to: "/components", label: "Components", position: "left" },
 
@@ -272,9 +250,13 @@ const config = {
             position: "right",
             dropdownItemsAfter: [
               {
-                to: "https://my-site.com/help-us-translate",
-                label: "Help us translate",
+                to: "#",
+                label: "Soon",
               },
+              // {
+              //   to: "https://my-site.com/help-us-translate",
+              //   label: "Help us translate",
+              // },
             ],
           },
 
@@ -298,7 +280,7 @@ const config = {
           // },
 
           // {
-          //   href: "https://github.com/mobiwise/docusaurus",
+          //   href: "https://github.com/mobiwise-dev/",
           //   label: "GitHub",
           //   position: "right",
           // },
@@ -317,35 +299,39 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Docs",
+            title: "Links",
             items: [
+              {
+                label: "Blog",
+                to: "/blog",
+              },
               {
                 label: "Tutorial",
                 to: "/docs/intro",
               },
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Extensions",
+                to: "/extensions",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Components",
+                to: "/components",
               },
-              // {
-              //   label: "Discord",
-              //   href: "https://discordapp.com/invite/docusaurus",
-              // },
-              // {
-              //   label: "Twitter",
-              //   href: "https://twitter.com/docusaurus",
-              // },
+              {
+                label: "Cheat Sheet",
+                to: "/docs/Cheat_Sheet",
+              },
             ],
           },
+          // {
+          //   title: "Community",
+          //   items: [
+          //     {
+          //       label: "Stack Overflow",
+          //       href: "https://stackoverflow.com/questions/tagged/docusaurus",
+          //     },
+          //   ],
+          // },
           {
             title: "External links",
             items: [
