@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[18],{8307:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"extensions"}')}}]);
