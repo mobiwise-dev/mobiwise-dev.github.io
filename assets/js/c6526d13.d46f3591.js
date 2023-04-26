@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[7317],{9326:i=>{i.exports=JSON.parse('{"label":"docusaurus","permalink":"/mobiwise-dev.github.io/blog/tags/docusaurus","allTagsPath":"/mobiwise-dev.github.io/blog/tags","count":4}')}}]);
