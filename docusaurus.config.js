@@ -11,9 +11,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MobiWise",
-  tagline: "Mobirise more Wise",
-  favicon: "img/mobiwise.svg",
+  title: "My Site",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://github.com",
@@ -37,16 +37,6 @@ const config = {
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
-    path: "i18n",
-    localeConfigs: {
-      en: {
-        label: "English",
-        direction: "ltr",
-        htmlLang: "en-US",
-        calendar: "gregory",
-        path: "en",
-      },
-    },
   },
 
   ///////////////////////////////////////////////////////////////////////////////
