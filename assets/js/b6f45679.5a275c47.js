@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[5085],{6045:e=>{e.exports=JSON.parse('{"permalink":"/mobiwise-dev.github.io/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
