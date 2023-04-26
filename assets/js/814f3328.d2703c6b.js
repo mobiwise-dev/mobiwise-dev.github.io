@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bienvenue sur ce blog d\xe9di\xe9 \xe0 Mobirise","permalink":"/blog/welcome-on-this-blog"}]}')}}]);
