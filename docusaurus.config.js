@@ -353,6 +353,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} <a href="https://mobirise.dev">MobiWise.dev</a>`,
       },
 
+      //////////////////////////////////////////////////////////////////////////
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
