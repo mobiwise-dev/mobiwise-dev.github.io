@@ -28,7 +28,9 @@ const config = {
   onBrokenLinks: "ignore", // Type : 'ignore' | 'log' | 'warn' | 'throw'
   onBrokenMarkdownLinks: "warn", // Type : 'ignore' | 'log' | 'warn' | 'throw'
 
-  // Internationalization
+  ///////////////////////////////////////////////////////////////////////////////
+  // INTERNATIONALIZATION
+  ///////////////////////////////////////////////////////////////////////////////
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
@@ -107,6 +109,7 @@ const config = {
       <% }); %>
       <%~ it.postBodyTags %>
       <script async>const txt = "mobiwise ";const txt_with_spaces = txt.split('').join(' ');const txt_rep = txt_with_spaces.repeat(1000);document.body.setAttribute('data-bg', txt_rep);</script>
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     </body>
   </html>`,
 
@@ -157,6 +160,35 @@ const config = {
 
       //////////////////////////////////////////////////////////////////////////
 
+      styles: [
+        // String format.
+        "https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css",
+        // Object format.
+        // {
+        //   href: "http://mydomain.com/style.css",
+        // },
+      ],
+
+      //////////////////////////////////////////////////////////////////////////
+
+      scripts: [
+        {
+          src: "/mw.js",
+          async: true,
+        },
+      ],
+      // scripts: [
+      //   // String format.
+      //   // "https://docusaurus.io/script.js",
+      //   // Object format.
+      //   {
+      //     src: "/mw.js",
+      //     async: true,
+      //   },
+      // ],
+
+      //////////////////////////////////////////////////////////////////////////
+
       headTags: [],
 
       //////////////////////////////////////////////////////////////////////////
@@ -187,18 +219,6 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-
-      //////////////////////////////////////////////////////////////////////////
-
-      scripts: [
-        // script syntax
-        "test.js",
-        // object syntax
-        // {
-        //   src: "http://localhost:3000/test.js",
-        //   async: true,
-        // },
-      ],
 
       //////////////////////////////////////////////////////////////////////////
 
