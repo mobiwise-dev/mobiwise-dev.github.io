@@ -232,7 +232,7 @@ const config = {
         id: "support_us",
         content: '<b><a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/donate/?hosted_button_id=ZXVQYM7ZEH6QN">Don\'t forget to support our work by making a donation</a></b>',
         backgroundColor: "#e43f3f",
-        textColor: "#f1f1f1",
+        textColor: "black",
         isCloseable: true,
       },
 
