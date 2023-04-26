@@ -6,7 +6,7 @@ authors: [mobiwise]
 tags: [Welcome, hello, docusaurus]
 ---
 
-![img alt](docusaurus-plushie-banner.jpeg)
+<!-- ![img alt](docusaurus-plushie-banner.jpeg) -->
 
 Everything you need to know about this website creation platform
 
