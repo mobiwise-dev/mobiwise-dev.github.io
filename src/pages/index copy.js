@@ -7,25 +7,21 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
 
-import { useEffect } from "react";
-
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    // useEffect(() => {
-    //   document.body.classList.add("index");
-    //   return () => {
-    //     document.body.classList.remove("index");
-    //   };
-    // }, []),
-    <>
-      {/* <div className="noise_container">
-        <div className="noise"></div>
-      </div> */}
-      <header className="headerIndex" style={{ textAlign: "center", height: "90vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <img src="/img/mobiwise.svg" alt="MOBIWISE" style={{ height: "25vh", filter: "drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.8))" }} />
-      </header>
-    </>
+    // <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <header className={clsx("hero", styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link className="button button--secondary button--lg" to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
+          </Link>
+        </div>
+      </div>
+    </header>
   );
 }
 
@@ -34,9 +30,9 @@ export default function Home() {
   return (
     <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      {/* <main>
+      <main>
         <HomepageFeatures />
-      </main> */}
+      </main>
     </Layout>
   );
 }
