@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[9534],{1063:e=>{e.exports=JSON.parse('{"permalink":"/mobiwise-dev.github.io/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
