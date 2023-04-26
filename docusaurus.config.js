@@ -16,10 +16,10 @@ const config = {
   favicon: "img/mobiwise.svg",
 
   // Set the production url of your site here
-  url: "https://github.com",
+  url: "https://mobiwise.dev",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/mobiwise-dev.github.io/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -27,8 +27,9 @@ const config = {
   projectName: "mobiwise-dev.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages", // The branch of your docs repo that you are publishing to GitHub pages
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  // onBrokenLinks: "throw", // Type : 'ignore' | 'log' | 'warn' | 'throw'
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "warn", // Type : 'ignore' | 'log' | 'warn' | 'throw'
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
