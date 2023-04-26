@@ -1,29 +1,29 @@
 ---
 slug: welcome-on-this-blog
-title: Bienvenue sur ce blog dédié à Mobirise
-description: tout ce que vous devez savoir sur cette plateforme de création de sites web
+title: Welcome to this blog dedicated to Mobirise
+description: everything you need to know about this website creation platform
 authors: [mobiwise]
 tags: [Welcome, hello, docusaurus]
 ---
 
 ![img alt](docusaurus-plushie-banner.jpeg)
 
-Tout ce que vous devez savoir sur cette plateforme de création de sites web
+Everything you need to know about this website creation platform
 
-Bonjour et bienvenue sur ce tout nouveau blog ! Ce blog est dédié à tout ce qui concerne la plateforme de création de sites web Mobirise. Vous trouverez ici des articles sur les mises à jour, les nouvelles fonctionnalités, les tutoriels, les astuces et les fonctions natives de Mobirise. Mon but est de fournir des informations utiles et pratiques pour aider les utilisateurs de tous niveaux à tirer le meilleur parti de Mobirise.
+Hello and welcome to this brand new blog! This blog is dedicated to everything about the Mobirise website creation platform. Here you will find articles about updates, new features, tutorials, tips and native features of Mobirise. My goal is to provide useful and practical information to help users of all levels get the most out of Mobirise.
 
 <!--truncate-->
 
-Mobirise est une plateforme de création de sites web populaire, utilisée par des millions d'utilisateurs à travers le monde. Avec Mobirise, vous pouvez créer des sites web professionnels en quelques minutes, sans aucune connaissance en programmation ou en design. Cette plateforme offre une variété de thèmes et de fonctionnalités pour aider les utilisateurs à créer des sites web qui correspondent à leurs besoins et à leurs objectifs.
+Mobirise is a popular website creation platform used by millions of users around the world. With Mobirise, you can create professional websites in minutes, without any programming or design knowledge. This platform offers a variety of themes and features to help users create websites that fit their needs and goals.
 
-Dans ce blog, vous trouverez des articles sur les sujets suivants :
+In this blog, you will find articles on the following topics:
 
-- Les mises à jour de Mobirise : Je partagerai avec vous les dernières mises à jour de Mobirise, y compris les nouvelles fonctionnalités et les améliorations apportées à la plateforme.
+- Mobirise Updates: I will share with you the latest updates to Mobirise, including new features and improvements to the platform.
 
-- Les tutoriels : Vous trouverez des tutoriels détaillés sur la façon d'utiliser les différentes fonctionnalités de Mobirise, y compris la création de pages, l'ajout de formulaires de contact, l'intégration de vidéos et bien plus encore.
+- Tutorials: You'll find detailed tutorials on how to use the various features of Mobirise, including creating pages, adding contact forms, embedding videos and more.
 
-- Les trucs et astuces : Vous trouverez également des trucs et astuces pour rendre votre expérience de création de sites web avec Mobirise encore plus agréable et efficace.
+- Tips and Tricks: You'll also find tips and tricks to make your Mobirise website creation experience even more enjoyable and efficient.
 
-- La partie wiki : Cette section du blog sera consacrée aux fonctions natives de Mobirise, où je décrirai en détail toutes les fonctions de cette plateforme pour que vous puissiez comprendre comment utiliser chaque fonction de manière efficace.
+- The wiki part: This section of the blog will be dedicated to the native features of Mobirise, where I will describe in detail all the features of this platform so you can understand how to use each feature effectively.
 
-Mon objectif est de fournir des informations pratiques et utiles aux utilisateurs de Mobirise pour les aider à créer des sites web professionnels en toute simplicité. Je suis ravi de partager ma passion pour cette plateforme de création de sites web avec vous, et j'espère que ce blog sera une source d'inspiration et d'aide pour tous ceux qui cherchent à créer des sites web de qualité avec Mobirise.
+My goal is to provide practical and useful information to Mobirise users to help them create professional websites with ease. I'm excited to share my passion for this website building platform with you, and I hope this blog will be a source of inspiration and help for anyone looking to build quality websites with Mobirise.
