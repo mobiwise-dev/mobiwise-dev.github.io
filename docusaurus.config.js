@@ -230,7 +230,7 @@ const config = {
 
       announcementBar: {
         id: "support_us",
-        content: "<b>Under construction | Under construction | Under construction | Under construction | Under construction | Under construction | Under construction | Under construction |</b>",
+        content: "<b>Under construction | Under construction | Under construction | Under construction | Under construction | Under construction</b>",
         backgroundColor: "#e43f3f",
         textColor: "black",
         isCloseable: true,

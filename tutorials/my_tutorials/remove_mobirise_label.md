@@ -14,35 +14,35 @@ tags:
 
 # How to remove Mobirise label in pages ?
 
-## Prérequis
+## Prerequisites
 
-- Un éditeur de code. Je vous recommande [Visual Studio Code](https://code.visualstudio.com/) aussi appelé VSCode.
+- A code editor. I recommend [Visual Studio Code](https://code.visualstudio.com/) also called VSCode.
 
-## Avant de commencer
+## Before starting
 
-Mobirise est disponible en version gratuite. Cette version gratuite vous permez de vous familiariser avec l'interface de Mobirise. Vous serez limité sur le thème utilisé et sur la personnalisation avancée. Si votre but est de créer un petit site perso, cette version peut vous suffir.
+Mobirise is available in free version. This free version will allow you to familiarize yourself with the Mobirise interface. You will be limited on the theme used and on the advanced customization. If your goal is to create a small personal website, this version may be enough for you.
 
-Lors de la publication en version gratuite, Mobirise ajoute (**désactivable dans la version payante**) :
+When publishing in the free version, Mobirise adds (**disable in the paid version**) :
 
-- un commentaire dans le `<head>` :
+- a comment in the `<head>` section :
 
 ```html
 <!-- Site made with Mobirise Website Builder v5.X.X, https://mobirise.com -->
 ```
 
-- une `class` à l'élément `<body>` :
+- a `class` to the `<body>` element :
 
 ```html
 <body style="z-index: 0"></body>
 ```
 
-- une section invisible sous l'élément `<body>` avec des liens variables :
+- an invisible section under the `<body>` element with variable links :
 
 ```html title=Exemple
 <section id="top-1" style="display: none;"><a href="https://mobirise.com/builder/web-design-tool.html">web design tool</a> Mobirise v5.8.4 <a href="https://mobirise.com/extensions/popup-builder/">Popup Generator</a></section>
 ```
 
-- un bandeau sous le `<footer>` pointant vers son propre site :
+- a banner under the `<footer>` pointing to its own site :
 
 ```html
 <section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
@@ -53,20 +53,20 @@ Lors de la publication en version gratuite, Mobirise ajoute (**désactivable dan
 ```
 
 :::danger Alert
-Tous liens non renseignés dans l'interface pointera vers le site de Mobirise. Soyez vigilant.
+All links not filled in the interface will point to the Mobirise site. Be careful.
 :::
 
 ## Comment procéder ?
 
-Si vous supprimer directement le bandeau sous le footer, le site se casse. Le CSS de la feuille de style `mbr-additional.css` ne se charge plus.
+If you delete directly the banner under the footer, the site breaks. The CSS of the stylesheet `mbr-additional.css` does not load anymore.
 
-Pourquoi ? Mobirise ajoute lors de la publication du site un peu de code Javascript au fichier `script.js` du thème.La solution est donc d'ôter le code ajouté.
+Why does this happen? Mobirise adds some Javascript code to the `script.js` file of the theme when publishing the site, so the solution is to remove the added code.
 
-1. Ouvrez votre dossier de publication est rendez-vous ici : `assets/theme/js/script.js`
+1. Open your publication folder and go here : `assets/theme/js/script.js`.
 
-2. Ouvrez `script.js`
+2. Open `script.js`.
 
-3. Localiser
+3. Locate
 
 ````js
 document.getElementsByTagName("body")[0].setAttribute("style","z-index: 0");!function(){try{document.getElementsById("top-1")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.style="display: none";a.innerHTML='<a href="https://mobirise.com/builder/web-design-tool.html">web design tool</a> Mobirise v5.8.4 <a href="https://mobirise.com/extensions/popup-builder/">Popup Generator</a>';document.body.insertBefore(a,document.body.childNodes[0])}}();
