@@ -1,12 +1,12 @@
 ---
-slug: welcome-on-this-blog
-title: Welcome to this blog dedicated to Mobirise
+slug: welcome-on-Mobirise-blog
+title: Welcome on this Mobirise blog
 description: everything you need to know about this website creation platform
 authors: [mobiwise]
 tags: [Welcome, hello, docusaurus]
 ---
 
-<!-- ![img alt](docusaurus-plushie-banner.jpeg) -->
+![We are open](open.png)
 
 Everything you need to know about this website creation platform
 

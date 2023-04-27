@@ -230,7 +230,7 @@ const config = {
 
       announcementBar: {
         id: "support_us",
-        content: '<b><a target="_blank" rel="noopener noreferrer" href="https://www.paypal.com/donate/?hosted_button_id=ZXVQYM7ZEH6QN">Don\'t forget to support our work by making a donation</a></b>',
+        content: "<b>Under construction | Under construction | Under construction | Under construction | Under construction | Under construction | Under construction | Under construction |</b>",
         backgroundColor: "#e43f3f",
         textColor: "black",
         isCloseable: true,
@@ -261,20 +261,20 @@ const config = {
             position: "left",
           },
 
-          {
-            type: "localeDropdown",
-            position: "right",
-            dropdownItemsAfter: [
-              {
-                to: "#",
-                label: "Soon",
-              },
-              // {
-              //   to: "https://my-site.com/help-us-translate",
-              //   label: "Help us translate",
-              // },
-            ],
-          },
+          // {
+          //   type: "localeDropdown",
+          //   position: "right",
+          //   dropdownItemsAfter: [
+          //     {
+          //       to: "#",
+          //       label: "Soon",
+          //     },
+          //     // {
+          //     //   to: "https://my-site.com/help-us-translate",
+          //     //   label: "Help us translate",
+          //     // },
+          //   ],
+          // },
 
           // {
           //   type: "html",
@@ -292,7 +292,7 @@ const config = {
           //   type: "html",
           //   position: "right",
           //   value:
-          //     '<a href="https://dev.azure.com/{your-organization}/{your-project}/_git/{your-docusaurus-repo}" target="_blank" style="content: \'\'; width: 128px; height: 50px; background-image: url(\'https://viatesting.files.wordpress.com/2020/03/paypal-donate-button.png\'); background-repeat: no-repeat;  background-size: 128px 50px; display: flex">',
+          //     '<a href="https://www.paypal.com/donate/?hosted_button_id=ZXVQYM7ZEH6QN" target="_blank" style="content: \'\'; width: 128px; height: 50px; background-image: url(\'https://viatesting.files.wordpress.com/2020/03/paypal-donate-button.png\'); background-repeat: no-repeat;  background-size: 128px 50px; display: flex">',
           // },
 
           // {
