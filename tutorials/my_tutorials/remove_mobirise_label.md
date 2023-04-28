@@ -5,10 +5,14 @@ description: How to remove Mobirise label in pages
 keywords:
   - Mobirise
   - Label
+  - Banner
+  - Footer
   - Remove
 tags:
   - Mobirise
   - Label
+  - Banner
+  - Footer
   - Remove
 ---
 
@@ -191,4 +195,6 @@ else if (!m) {
 
 5. Save the file.
 
-6. Now you can remove all Mobirise references in your HTML files.
+6. Now the banner under the footer is deletable.
+
+## Conclusion
