@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[1097],{3687:e=>{e.exports=JSON.parse('{"label":"Mobirise","permalink":"/blog/tags/mobirise","allTagsPath":"/blog/tags","count":1}')}}]);

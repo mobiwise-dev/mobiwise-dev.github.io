@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmobiwise_dev_github_io=self.webpackChunkmobiwise_dev_github_io||[]).push([[5665],{8632:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/new-version","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
