@@ -24,6 +24,9 @@
   /* --ifm-body-test1: #f0f0f0;
   --ifm-body-test2: #e4e4e4;
   --ifm-body-test3: #fcfcfc; */
+
+  --ifm-background-color: #292d36;
+
   --ifm-body-test1: #292d36;
   --ifm-body-test2: #272a32;
   --ifm-body-test3: #2c303a;
