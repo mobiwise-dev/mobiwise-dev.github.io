@@ -21,15 +21,13 @@
   --ifm-footer-color: #fff !important;
   --ifm-footer-link-color: #fff !important;
 
-  /* --ifm-body-test1: #f0f0f0;
-  --ifm-body-test2: #e4e4e4;
-  --ifm-body-test3: #fcfcfc; */
+  /* --ifm-background-color: #f0f0f0;
+  --ifm-background-color-dark: #e4e4e4;
+  --ifm-background-color-light: #fcfcfc; */
 
   --ifm-background-color: #292d36;
-
-  --ifm-body-test1: #292d36;
-  --ifm-body-test2: #272a32;
-  --ifm-body-test3: #2c303a;
+  --ifm-background-color-dark: #272a32;
+  --ifm-background-color-light: #2c303a;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -37,15 +35,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 } */
 [data-theme="dark"] {
-  /* --ifm-background-color: #232323 !important; */
-
-  /* --ifm-body-test1: #373c48;
-  --ifm-body-test2: #343944;
-  --ifm-body-test3: #3a3f4c; */
-
-  --ifm-body-test1: #292d36;
-  --ifm-body-test2: #272a32;
-  --ifm-body-test3: #2c303a;
+  --ifm-background-color: #292d36;
+  --ifm-background-color-dark: #272a32;
+  --ifm-background-color-light: #2c303a;
 }
 
 img[src*="#center"] {
@@ -68,15 +60,15 @@ body::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--ifm-body-test1);
+  background: var(--ifm-background-color);
   overflow-y: hidden;
   text-align: justify;
   text-transform: uppercase;
   font-size: 10vh;
   font-weight: 900;
   line-height: 1.3;
-  color: var(--ifm-body-test1);
-  text-shadow: 0px 5px 1px var(--ifm-body-test2), 0 -2px 1px var(--ifm-body-test3);
+  color: var(--ifm-background-color);
+  text-shadow: 0px 5px 1px var(--ifm-background-color-dark), 0 -2px 1px var(--ifm-background-color-light);
   letter-spacing: -1vh;
   transition: 0.5s;
 }
