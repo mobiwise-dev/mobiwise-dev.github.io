@@ -4,7 +4,18 @@ sidebar_position: 3
 
 # Parameters
 
-When you click on gear icon you can access to the component parameters. You have several types at your disposal.
+When you click on gear icon you can access to the component parameters. You have several types at your disposal. Each parameter you want to use in your component must be in the `<mbr-parameters>` tag.
+
+```html title="Exemple"
+<mbr-parameters>
+  <header>Size</header>
+  <input type="checkbox" title="Full Screen" name="fullScreen" checked />
+  <input type="checkbox" title="Full Width" name="fullWidth" />
+  <header>Show/Hide</header>
+  <input type="checkbox" title="Title" name="showTitle" checked />
+  <input type="checkbox" title="Subtitle" name="showSubitle" />
+</mbr-parameters>
+```
 
 ## Section title
 
@@ -96,9 +107,9 @@ When you click on gear icon you can access to the component parameters. You have
 </fieldset>
 ```
 
-The parallax attribute for thefieldset tag shows the on/off parallax switch. If the same attribute is set for an image, it means that parallax is enabled. If it is absent, parallax is disabled. This parameter supports only three background
-types image, color and video.
-The current choice is denoted by the selected parameter for a corresponding tag.
+The `parallax` attribute for the `fieldset` tag shows the on/off parallax switch. <br />
+If the same attribute is set for an image, it means that parallax is enabled. If it is absent, parallax is disabled. This parameter supports only three background types image, color and video. The current choice is denoted by the selected parameter for a corresponding tag.
+
 The title attribute assigns a title for the switch. In the rest, the nested parameters behave like the autonomous parameters, but
 they don't require thename attribute. The value of the bg variable for the previous example looks this way: { "type": "color", "value": "#073B4C", "parallax": false, "image": { "value": "background5.jpg", "parallax": true }, "color": {
 "value": "#073B4C" }, "video": { "value": { "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw" } } } The selected type of background is stored in the type key, and the value is in value. If the selected type is an image, and the parallax
