@@ -25,7 +25,7 @@
   --ifm-background-color-dark: #e4e4e4;
   --ifm-background-color-light: #fcfcfc; */
 
-  --ifm-background-color: #292d36;
+  --ifm-background-color: #292d36 !important;
   --ifm-background-color-dark: #272a32;
   --ifm-background-color-light: #2c303a;
 }
