@@ -99,7 +99,7 @@ const config = {
       <% }); %>
     </head>
     <body <%~ it.bodyAttributes %>>
-      <div class="noise_container"><div class="noise"></div></div>
+      
       <%~ it.preBodyTags %>
       <div id="__docusaurus">
         <%~ it.appHtml %>
