@@ -108,7 +108,6 @@ const config = {
         <script src="<%= it.baseUrl %><%= script %>"></script>
       <% }); %>
       <%~ it.postBodyTags %>
-      <script async>const txt = "mobiwise ";const txt_with_spaces = txt.split('').join(' ');const txt_rep = txt_with_spaces.repeat(1000);document.body.setAttribute('data-bg', txt_rep);</script>
       <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     </body>
   </html>`,
@@ -230,7 +229,8 @@ const config = {
 
       announcementBar: {
         id: "support_us",
-        content: "<b>Under construction | Under construction | Under construction | Under construction | Under construction | Under construction</b>",
+        content:
+          "<b>Under construction | Under construction | Under construction | Under construction | Under construction | Under construction</b>",
         backgroundColor: "#e43f3f",
         textColor: "black",
         isCloseable: true,
