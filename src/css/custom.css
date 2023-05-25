@@ -139,7 +139,7 @@ body::after {
 #mwStoreSection h1 {
   font-size: 4vh; 
   color: var(--ifm-color-primary);
-  transform: translate(0, 13vh);
+  transform: translate(0, 15vh);
 }
 #mwStoreSection h2 {
   font-size: 2.4vh;
