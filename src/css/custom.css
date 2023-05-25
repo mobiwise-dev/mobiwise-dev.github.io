@@ -129,6 +129,7 @@ body::after {
   justify-content: center;
   align-items: center;
   height:50vh !important;
+  overflow: hidden;
 }
 
 #mwStoreSection h1, #mwStoreSection h2 {
