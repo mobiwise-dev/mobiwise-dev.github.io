@@ -147,12 +147,12 @@ body::after {
 }
 
 #mwStoreLogo {
-  height: 35vh;
+  height: 40vh;
   z-index: 2;
   filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.8));
 }
 
-#mwStoreSection .content {
+.content {
   height: 100%;
   width: 100%;
   position: relative;
@@ -162,7 +162,7 @@ body::after {
   isolation: isolate;
 }
 
-#mwStoreSection .content .content__img {
+.content__img {
   max-width: 400px;
   position: absolute;
   top: -50%;
@@ -171,9 +171,6 @@ body::after {
   will-change: transform;
   filter: none;
 }
-
-
-
 
 .iconfont {
   height: 6rem;
