@@ -129,7 +129,7 @@ body::after {
   justify-content: center;
   align-items: center;
   height:50vh !important;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 #mwStoreSection h1, #mwStoreSection h2 {
@@ -168,7 +168,7 @@ body::after {
 .content__img {
   max-width: 400px;
   position: absolute;
-  top: -100%;
+  top: -75%;
   left: -50%;
   opacity: 0;
   will-change: transform;
