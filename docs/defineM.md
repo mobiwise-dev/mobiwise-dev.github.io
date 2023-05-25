@@ -22,21 +22,21 @@ function(b, c, h) {
 }
 ```
 
-Cette fonction est une implémentation simplifiée d'un système de modules en JavaScript.
+This function is a simplified implementation of a module system in JavaScript.
 
-La fonction `defineM` prend trois arguments (`b`, `c` et `h`) qui sont tous facultatifs et peuvent être de différents types :
+The `defineM` function takes three arguments (`b`, `c` and `h`) which are all optional and can be of different types:
 
-Si l'argument est une chaîne de caractères, il est considéré comme le nom du module.<br/>
-Si l'argument est une fonction, il est considéré comme le corps du module.<br/>
-Si l'argument est un tableau, il est considéré comme la liste des dépendances du module.
+If the argument is a string, it is taken as the module name.<br/>
+If the argument is a function, it is considered the body of the module.<br/>
+If the argument is an array, it is considered the list of module dependencies.
 
-La fonction crée un objet `g` et `y` stocke les informations fournies sous forme d'arguments. Si une fonction est fournie comme argument, elle est stockée dans la propriété `func` de l'objet `g`. Si un nom est fourni comme argument, il est stocké dans la propriété `name` de l'objet `g`. Si une liste de dépendances est fournie, elle est stockée dans la propriété `deps` de l'objet `g`.
+The function creates a `g` object and `y` stores the provided information as arguments. If a function is supplied as an argument, it is stored in the `func` property of the `g` object. If a name is supplied as an argument, it is stored in the `name` property of the `g` object. If a list of dependencies is provided, it is stored in the `deps` property of the `g` object.
 
-La fonction récupère également le chemin du script actuel (à partir des balises `script` dans le document HTML) et stocke le chemin dans la propriété `path` de l'objet `g`.
+The function also retrieves the path to the current script (from the `script` tags in the HTML document) and stores the path in the `path` property of the `g` object.
 
-Enfin, la fonction ajoute l'objet `g` à un tableau `e` qui contient tous les modules définis jusqu'à présent, puis elle appelle la fonction `a` (qui n'est pas définie dans le code) et retourne l'objet `g`.
+Finally, the function adds the `g` object to an `e` array that contains all the modules defined so far, then it calls the `a` function (which is not defined in the code) and returns l 'object `g`.
 
-Si aucun argument de type fonction n'est fourni à la fonction `defineM`, une erreur est renvoyée via la fonction `console.error`.
+If no function-like argument is supplied to the `defineM` function, an error is returned via the `console.error` function.
 
 ## Exemple
 
@@ -58,9 +58,9 @@ defineM(
 ```
 
 :::info Note
-Ce code ne fait pas grand-chose de pratique, mais il illustre comment la fonction `regExtension` peut être utilisée pour enregistrer des fonctionnalités personnalisées dans Mobirise.
+This code doesn't do much of anything practical, but it illustrates how the `regExtension` function can be used to register custom features in Mobirise.
 :::
 
-## En résumé
+## In summary
 
-Cette fonction `mbrApp.alertDlg` crée une boîte de dialogue d'alerte contenant le texte passé en argument, et affiche cette boîte de dialogue à l'utilisateur. Lorsque l'utilisateur appuie sur le bouton "OK" de la boîte de dialogue, la fonction `success` est appelée, mais elle ne fait rien.
+This `mbrApp.alertDlg` function creates an alert dialog box containing the text passed as an argument, and displays this dialog box to the user. When the user presses the "OK" button on the dialog box, the `success` function is called, but it does nothing.
