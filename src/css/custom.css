@@ -139,7 +139,7 @@ body::after {
 #mwStoreSection h1 {
   font-size: 4vh; 
   color: var(--ifm-color-primary);
-  transform: translate(0, -11vh);
+  transform: translate(0, -13vh);
 }
 #mwStoreSection h2 {
   font-size: 2.4vh;
@@ -147,6 +147,7 @@ body::after {
   /* color: transparent; */
   /* -webkit-text-stroke: var(--ifm-color-primary) 1px; */
   margin-bottom: 0.8vh;
+  transform: translate(0, 13vh);
 }
 
 #mwStoreLogo {
