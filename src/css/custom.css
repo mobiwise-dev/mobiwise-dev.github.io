@@ -133,6 +133,7 @@ body::after {
 }
 
 #mwStoreSection h1, #mwStoreSection h2 {
+  position: absolute;
   font-weight: 900;
 }
 #mwStoreSection h1 {
@@ -148,7 +149,8 @@ body::after {
 }
 
 #mwStoreLogo {
-  height: 40vh;
+  position: absolute;
+  height: 25vh;
   z-index: 2;
   filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.8));
 }
@@ -166,7 +168,7 @@ body::after {
 .content__img {
   max-width: 400px;
   position: absolute;
-  top: -50%;
+  top: -100%;
   left: -50%;
   opacity: 0;
   will-change: transform;
