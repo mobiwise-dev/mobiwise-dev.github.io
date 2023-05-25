@@ -165,7 +165,7 @@ body::after {
 .content__img {
   max-width: 400px;
   position: absolute;
-  top: -50%;
+  top: 0%;
   left: -50%;
   opacity: 0;
   will-change: transform;
