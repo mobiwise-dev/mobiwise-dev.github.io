@@ -147,7 +147,7 @@ body::after {
 }
 
 #mwStoreLogo {
-  height: 20vh;
+  height: 35vh;
   z-index: 2;
   filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.8));
 }
@@ -165,7 +165,7 @@ body::after {
 #mwStoreSection .content .content__img {
   max-width: 400px;
   position: absolute;
-  top: -80vh;
+  top: 0vh;
   left: 0;
   opacity: 0;
   will-change: transform;
