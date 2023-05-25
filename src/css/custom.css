@@ -120,3 +120,50 @@ body::after {
 .hero {
   background: transparent !important;
 }
+
+
+/* Mobiwise Store page */
+#mwStoreSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:50vh !important;
+}
+
+#mwStoreSection h1, #mwStoreSection h2 {
+  font-weight: 900;
+}
+#mwStoreSection h1 {
+  font-size: 4vh;
+  color: var(--ifm-color-primary);
+}
+#mwStoreSection h2 {
+  font-size: 2.4vh;
+  color: var(--ifm-color-primary);
+  /* color: transparent; */
+  /* -webkit-text-stroke: var(--ifm-color-primary) 1px; */
+  margin-bottom: 0.8vh;
+}
+
+#mwStoreSection content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+}
+
+#mwStoreLogo {
+  height: 20vh;
+  z-index:2;
+  filter: drop-shadow(0 0 0.75rem rgba(0,0,0,0.8));
+}
+
+.iconfont {
+  height: 6rem;
+  fill: #e43f3f;
+  margin-bottom: 2rem;
+}
