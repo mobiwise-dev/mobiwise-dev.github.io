@@ -109,6 +109,9 @@ const config = {
       <% }); %>
       <%~ it.postBodyTags %>
       <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+      <script src="https://tympanus.net/Development/ImageTrailEffects/js/imagesloaded.pkgd.min.js" defer></script>
+      <script src="https://tympanus.net/Development/ImageTrailEffects/js/TweenMax.min.js" defer></script>
+      <script src="https://tympanus.net/Development/ImageTrailEffects/js/demo2.js" defer></script>
     </body>
   </html>`,
 
