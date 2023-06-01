@@ -255,7 +255,7 @@ const config = {
 
           { to: "/extensions", label: "Extensions", position: "left" },
 
-          { to: "/components", label: "Components", position: "left" },
+          // { to: "/components", label: "Components", position: "left" },
 
           {
             type: "docSidebar",
@@ -332,10 +332,10 @@ const config = {
                 label: "Extensions",
                 to: "/extensions",
               },
-              {
-                label: "Components",
-                to: "/components",
-              },
+              // {
+              //   label: "Components",
+              //   to: "/components",
+              // },
               {
                 label: "Cheat Sheet",
                 to: "/docs/Cheat_Sheet",
