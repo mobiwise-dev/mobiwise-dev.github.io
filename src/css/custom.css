@@ -182,3 +182,17 @@ body::after {
   fill: var(--ifm-color-primary);
   margin-bottom: 2rem;
 }
+
+.center {
+  text-align: center;
+}
+
+.title {
+font-size: 10vh;
+font-weight: 700;
+color: var(--ifm-color-primary);
+}
+.subtitle {
+font-size: 4vh;
+font-weight: 400;
+}
