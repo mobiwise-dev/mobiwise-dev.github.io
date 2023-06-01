@@ -232,8 +232,7 @@ const config = {
 
       announcementBar: {
         id: "support_us",
-        content:
-          "<b>Under construction | Under construction | Under construction | Under construction | Under construction | Under construction</b>",
+        content: "<b>If you like my work, support me with a donation</b>",
         backgroundColor: "#e43f3f",
         textColor: "black",
         isCloseable: true,
