@@ -368,7 +368,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://mobirise.dev">MobiWise.dev</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://mobiwise.dev">MobiWise.dev</a>`,
       },
 
       //////////////////////////////////////////////////////////////////////////
