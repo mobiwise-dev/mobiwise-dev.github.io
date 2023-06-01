@@ -73,7 +73,7 @@ function HomepageHeader() {
           Do you work with Mobirise team ?
         </h1>
         <p style={{ textAlign: "center" }}>
-          It is important to note all MobiWise project are independent and is
+          It is important to note all MobiWise projects are independent and is
           not affiliated with Mobirise in any way. The creator, MobiWise, is not
           affiliated with the Mobirise team and is simply an enthusiastic user
           of the platform who wants to help the community by providing a central
