@@ -186,7 +186,6 @@ body::after {
 .center {
   text-align: center;
 }
-
 .title {
 font-size: 10vh;
 font-weight: 700;
@@ -195,4 +194,19 @@ color: var(--ifm-color-primary);
 .subtitle {
 font-size: 4vh;
 font-weight: 400;
+}
+
+
+/* NAVBAR */
+.navbar__github {
+  content: "";
+  display: flex;
+  width: 24px; 
+  height: 24px; 
+  mask: url("/img/github.svg");
+  mask-size: cover;
+  background-color: var(--ifm-navbar-link-color);
+}
+.navbar__github:hover {
+  background-color: var(--ifm-navbar-link-hover-color);
 }

@@ -304,6 +304,13 @@ const config = {
           // },
 
           {
+            type: "html",
+            position: "right",
+            value:
+              "<a href='https://github.com/mobiwise-dev/' target='_blank' class='navbar__github'></a>",
+          },
+
+          {
             type: "search",
             position: "right",
           },
