@@ -39,7 +39,11 @@ d : le nom de la nouvelle page (optionnel)<br/>
 f : le titre de la nouvelle page (optionnel)<br/>
 g : un objet contenant les composants à ajouter à la nouvelle page (optionnel)
 
-Si le paramètre `d` n'est pas défini, la fonction va ajouter une nouvelle page au projet Mobirise, avec le titre et les composants spécifiés. Si `d` est défini, la fonction va créer une nouvelle page avec le nom spécifié, et les paramètres `f` et `g` seront ignorés. Si `c` est défini, la nouvelle page sera ajoutée après la page nommée `c`. Si `n` est vrai, la nouvelle page sera ajoutée en tant que page principale.
+:::info Note
+Si le paramètre `d` n'est pas défini, la fonction va ajouter une nouvelle page au projet Mobirise, avec le titre et les composants spécifiés.<br/>
+Si `d` est défini, la fonction va créer une nouvelle page avec le nom spécifié, et les paramètres `f` et `g` seront ignorés.<br/>
+Si `c` est défini, la nouvelle page sera ajoutée après la page nommée `c`. Si `n` est vrai, la nouvelle page sera ajoutée en tant que page principale.
+:::
 
 La fonction retourne un objet **jQuery** représentant la nouvelle page ajoutée.
 
