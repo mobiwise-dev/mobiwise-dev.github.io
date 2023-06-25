@@ -50,14 +50,15 @@ La fonction retourne un objet **jQuery** représentant la nouvelle page ajoutée
 ## Exemple
 
 ```js
-addPage(
-  "À propos", // Nom de la page ou 'undefined'
+const currentPage = mbrApp.Core.currentPage;
+const currentPageData = mbrApp.Core.getPageComponents(currentPage);
+
+mbrApp.Core.addPage(
+  "index.html", // Nom de la page ou 'undefined'
   false, // Définit si page principale
-  "contact.html", // Nom de la page
-  "Page de contact", // Titre de la page
-  {
-    /* ici les composants de la page de contact */
-  }
+  "index_copy.html", // Nom de la page
+  "Home Copy", // Titre de la page
+  currentPageData // ici les composants de la page de contact
 );
 ```
 
