@@ -2,7 +2,9 @@ import React from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+
 import Layout from "@theme/Layout";
+import Head from "@docusaurus/Head";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
@@ -22,6 +24,7 @@ function HomepageHeader() {
       {/* <div className="noise_container">
         <div className="noise"></div>
       </div> */}
+
       <header
         className="headerIndex"
         style={{
@@ -90,7 +93,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
+    <Layout title={`Welcome on ${siteConfig.title}`} description="MobiWise brings together several projects and know-how around Mobirise">
       <HomepageHeader />
       {/* <main>
         <HomepageFeatures />
