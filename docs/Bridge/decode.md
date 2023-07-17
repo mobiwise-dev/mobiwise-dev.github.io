@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.decode Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.decode
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.decode
 ---
 
 # Bridge.decode

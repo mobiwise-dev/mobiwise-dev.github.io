@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.bind Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.bind
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.bind
 ---
 
 # Bridge.bind

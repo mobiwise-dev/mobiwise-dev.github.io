@@ -1,13 +1,13 @@
 ---
-description: All about mbrApp.Accordion Mobirise function
+description: All about Bridge.url2sys Mobirise function
 keywords:
   - Mobirise
   - Function
-  - Accordion
+  - Bridge.url2sys
 tags:
   - Mobirise
   - Function
-  - Accordion
+  - Bridge.url2sys
 ---
 
 # Bridge.url2sys

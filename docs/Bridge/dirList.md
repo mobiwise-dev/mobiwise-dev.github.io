@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.dirList Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.dirList
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.dirList
 ---
 
 # Bridge.dirList

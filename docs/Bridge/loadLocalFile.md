@@ -3,11 +3,11 @@ description: All about Bridge.loadLocalFile Mobirise function
 keywords:
   - Mobirise
   - Function
-  - loadLocalFile
+  - Bridge.loadLocalFile
 tags:
   - Mobirise
   - Function
-  - loadLocalFile
+  - Bridge.loadLocalFile
 ---
 
 # Bridge.loadLocalFile

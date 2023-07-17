@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.addRecent Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.addRecent
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.addRecent
 ---
 
 # Bridge.addRecent

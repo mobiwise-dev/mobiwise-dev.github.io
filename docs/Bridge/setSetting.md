@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.setSettings Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.setSettings
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.setSettings
 ---
 
 # Bridge.setSettings

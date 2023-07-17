@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.getLocalJSON Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.getLocalJSON
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.getLocalJSON
 ---
 
 # Bridge.getLocalJSON

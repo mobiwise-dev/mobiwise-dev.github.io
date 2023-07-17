@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.getInfoLocal Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.getInfoLocal
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.getInfoLocal
 ---
 
 # Bridge.getInfoLocal

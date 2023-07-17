@@ -1,7 +1,13 @@
 ---
-sidebar_position: 1
+description: All about Bridge.encode Mobirise function
+keywords:
+  - Mobirise
+  - Function
+  - Bridge.encode
 tags:
-  - Bridge
+  - Mobirise
+  - Function
+  - Bridge.encode
 ---
 
 # Bridge.encode
