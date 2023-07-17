@@ -3,6 +3,6 @@
   "position": 4,
   "link": {
     "type": "generated-index",
-    "description": "Les fonctions mbrApp.Core"
+    "description": "Core functions of the mbrApp object"
   }
 }

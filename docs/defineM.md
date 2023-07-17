@@ -1,5 +1,9 @@
 ---
 sidebar_position: 2
+title: defineM
+description: What does Mobirise's 'defineM' function do?
+keywords: [MobiWise, Mobirise, extension, function]
+slug: defineM
 ---
 
 # defineM

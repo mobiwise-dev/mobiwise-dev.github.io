@@ -22,7 +22,7 @@ Mobirise also has an intuitive and user-friendly interface that allows users to 
 
 In summary, Mobirise is a simple and user-friendly website creation application that utilizes Electron and Bootstrap technology to allow users to create professional-looking websites without requiring programming skills. With an intuitive user interface and a range of advanced options, Mobirise is a great choice for both beginner and experienced users looking to create professional-looking websites.
 
-## About Electron App
+<!-- ## About Electron App
 
 > Electron is a runtime framework that facilitates cross-platform desktop application development by using HTML, CSS and JavaScript. It uses Node.js for backend and libchromiumcontent from [Chromium](https://www.chromium.org) for rendering(frontend).
 
@@ -37,7 +37,7 @@ Comment une application Electron utilise-t-elle les fonctionnalités du système
 
 Les scripts de préchargement contiennent du code qui s'exécute dans le contexte du moteur de rendu avant le code de l'application web. Ces scripts ont des privilèges plus élevés puisqu'ils ont accès aux API de Node.js.
 
-Les applications Electron sont emballées au format `asar` , qui est essentiellement un simple format de type TAR.
+Les applications Electron sont emballées au format `asar` , qui est essentiellement un simple format de type TAR. -->
 
 ```JSON
 app.asar # Source code of Mobirise
@@ -58,3 +58,7 @@ app.asar # Source code of Mobirise
 ├── loader.node
 └── package.json
 ```
+
+:::info Note
+All the following functions have been compiled with [Google Closure Compiler](https://developers.google.com/closure/compiler) by Mobirise developers. This explains why function parameters are so unclear. But with a little logic and reasoning, we can easily guess what the functions described do.
+:::

@@ -126,26 +126,26 @@ defineM(
 );
 ```
 
-Le module est défini à l'aide de la fonction `defineM` qui prend deux arguments : `g` et `f`. Ce sont des références à la bibliothèque `jQuery` et au module `Bridge` respectivement.
+The module is defined using the `defineM` function, which takes two arguments: `g` and `f`. These are references to the `jQuery` library and the `Bridge` module respectively.
 
-Le module `mbrApp` définit un constructeur d'objet appelé `e`. Ce constructeur initialise plusieurs propriétés, telles qu'un div de superposition caché, des références à la bibliothèque `jQuery` et à l'élément `body`, ainsi que des objets vides.
+The `mbrApp` module defines an object constructor called `e`. This constructor initializes several properties, such as a hidden overlay div, references to the `jQuery` library and the `body` element, and empty objects.
 
-L'objet `e` définit également plusieurs méthodes. La méthode `on` ajoute des écouteurs d'événements à l'objet `d` qui stocke des rappels associés à des noms d'événements. La méthode `off` supprime un écouteur d'événement, et la méthode `fire` déclenche un événement en appelant tous les rappels associés au nom de l'événement.
+The `e` object also defines several methods. The `on` method adds event listeners to the `d` object, which stores callbacks associated with event names. The `off` method deletes an event listener, and the `fire` method triggers an event by calling all callbacks associated with the event name.
 
-La méthode `fireOnce` est similaire à la méthode `fire`, mais elle n'appelle les rappels qu'une fois et les supprime ensuite de l'objet `d`.
+The `fireOnce` method is similar to the `fire` method, but calls callbacks only once and then deletes them from the `d` object.
 
-Les méthodes `addFilter` et `applyFilter` sont utilisées pour ajouter et appliquer des filtres aux données qui leur sont transmises.
+The `addFilter` and `applyFilter` methods are used to add and apply filters to the data passed to them.
 
-Les méthodes `regExtension` et `rmExtension` sont utilisées pour enregistrer et supprimer des extensions respectivement. Les extensions sont des modules JavaScript qui peuvent être chargés dynamiquement et ajoutent des fonctionnalités au module `mbrApp`.
+The `regExtension` and `rmExtension` methods are used to register and delete extensions respectively. Extensions are JavaScript modules that can be dynamically loaded and add functionality to the `mbrApp` module.
 
-Enfin, les méthodes `uniqNum` et `resetUniqNum` sont utilisées pour générer des nombres uniques et réinitialiser le compteur respectivement.
+Finally, the `uniqNum` and `resetUniqNum` methods are used to generate unique numbers and reset the counter respectively.
 
-Le code crée également une instance de l'objet `e` et l'assigne à la propriété `window.mbrApp`. De plus, il lie un écouteur d'événements à l'événement `drop` et appelle la méthode `bridgeInit` lorsque le document est prêt.
+The code also creates an instance of the `e` object and assigns it to the `window.mbrApp` property. In addition, it binds an event listener to the `drop` event and calls the `bridgeInit` method when the document is ready.
 
 ## Exemple
 
 ```js
-// On crée une nouvelle extension
+// Create a new extension
 var myExtension = {
   name: "MyExtension",
   global: {
@@ -159,34 +159,34 @@ var myExtension = {
     },
   },
 };
-// On enregistre l'extension auprès du module "mbrApp"
+// Register extension with "mbrApp" module
 mbrApp.regExtension(myExtension);
 
-// On ajoute un filtre qui ajoute un préfixe à une chaîne de caractères
+// We add a filter that adds a prefix to a character string
 mbrApp.addFilter("prefix", function (text, prefix) {
   return prefix + " " + text;
 });
 
-// On ajoute un rappel pour l'événement "myEvent"
+// We add a callback for the "myEvent" event
 mbrApp.on("myEvent", function () {
   console.log("My callback has been called!");
 });
 
-// On déclenche l'événement "myEvent"
+// We trigger the "myEvent" event
 mbrApp.fire("myEvent");
 
-// On appelle la méthode "myMethod" de l'extension
+// We call the "myMethod" method of the
 mbrApp.myMethod();
 
-// On applique le filtre "prefix" à une chaîne de caractères
+// Apply the "prefix" filter to a string
 var result = mbrApp.applyFilter("prefix", "world", "Hello");
-console.log(result); // Affiche "Hello world"
+alert(result); // Display a "Hello world" alert
 ```
 
-## En résumé
+## Summary
 
-Le code définit le module "mbrApp" qui est un objet contenant plusieurs méthodes pour ajouter, supprimer et déclencher des événements, ainsi que pour ajouter et appliquer des filtres.
+The code defines the `mbrApp` module, which is an object containing several methods for adding, deleting and triggering events, as well as adding and applying filters.
 
-En outre, le module `mbrApp` permet également d'enregistrer et de supprimer des extensions, qui sont des modules JavaScript qui ajoutent des fonctionnalités supplémentaires au module `mbrApp`. Le code crée également une instance du module `mbrApp` et l'assigne à la propriété `window.mbrApp`.
+In addition, the `mbrApp` module can also be used to register and delete extensions, which are JavaScript modules that add further functionality to the `mbrApp` module. The code also creates an instance of the `mbrApp` module and assigns it to the `window.mbrApp` property.
 
-Dans l'ensemble, le module `mbrApp` fournit une structure pour gérer des événements et des filtres dans une application JavaScript, et offre également la possibilité d'étendre ses fonctionnalités en utilisant des extensions.
+Overall, the `mbrApp` module provides a structure for managing events and filters in a JavaScript application, and also offers the possibility of extending its functionality using extensions.
