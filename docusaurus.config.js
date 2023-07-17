@@ -159,6 +159,7 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/mobiwise-social-card.png",
+      metadata: [{ name: "description", content: "MobiWise brings together several projects and know-how around Mobirise software." }],
 
       //////////////////////////////////////////////////////////////////////////
 
