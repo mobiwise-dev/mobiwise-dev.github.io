@@ -93,7 +93,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`Welcome on ${siteConfig.title}`} description="MobiWise brings together several projects and know-how around Mobirise">
+    <Layout title={`Welcome on ${siteConfig.title}`} description="MobiWise brings together several projects and know-how around Mobirise. Extensions, plugins, blocks...">
       <HomepageHeader />
       {/* <main>
         <HomepageFeatures />
