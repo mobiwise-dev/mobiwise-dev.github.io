@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MobiWise" />
+    <title>MobiWise</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALiMAAC4jAXilP3YAAAE4SURBVDhPY6AJ2G9vzwJlwsF/BgbG/6GhzFAuHDBBaRSg8v//4v9IhoA0P7W3n/Dq1StRqBAcYDUAqOHjk///Xzyxt38GxS+AwtLXGBjeQFQgAFYD/jIyFjAyMq4BMiVBmJGB4fAHBoYEx4MH/4AVIAGsBrAxMMQCqb1APBOI1wINW8z//38ySA4dAA3HBGeMjVmBVrP+EBRkZf33j4fh27d3sr9//2E8e/Y3VAkcYBhwz9FRnu3v3wXAcOCFCsHB////p8sdPjwXygUDDC8o7d//EOjkWiBWA2JjZMzEyCgBVQYHWMNA+uDBI0CneQGZnyEiuAFWA0AAZAjQyeFA/AUqhBXgNOC1lRUoDKqBCvC6BKcB31lYFIB+nip96NBhYr2DFzy0t7d5ameXB+WSB7BlMgoBAwMA/1hfqn8vA2oAAAAASUVORK5CYII="
+    />
+    <style>
+      :root {
+        --gradient: linear-gradient(45deg, #4158d0, #c850c0, #ffcc70, #4158d0, #c850c0, #ffcc70, #4158d0, #c850c0, #ffcc70);
+        --bg-size: 400%;
+        --animation: animated-gradient 15s linear infinite;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      #logo {
+        height: 30vh;
+        width: 30vh;
+        background: var(--gradient);
+        background-size: 400%;
+        animation: var(--animation);
+        mask: url("assets/mobiwise_logo.svg");
+        mask-size: 50%;
+        mask-repeat: no-repeat;
+        mask-position: center;
+      }
+
+      @keyframes animated-gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo"></div>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.waves.min.js"></script>
+    <script>
+      VANTA.WAVES({
+        el: "#header",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x050c19,
+      });
+    </script>
+  </body>
+</html>
